@@ -1,5 +1,6 @@
 package fr.uga.l3miage.spring.tp2.exo1.models;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,6 +12,7 @@ import java.time.Duration;
 @Entity
 @Getter
 @Setter
+@Builder
 public class SongEntity {
     @Id
     private String title;
